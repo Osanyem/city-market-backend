@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.market.citymarket.api.CitymarketApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-15T19:25:21" hostname="Osas-Macbook-Pro.local" time="0.374">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.market.citymarket.api.CitymarketApplicationTests" time="0.374"/>
+  <system-out><![CDATA[15:25:20.425 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.market.citymarket.api.CitymarketApplicationTests]: CitymarketApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:25:20.463 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.market.citymarket.api.CitymarketApplication for test class com.market.citymarket.api.CitymarketApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-09-15T15:25:20.615-04:00  INFO 56677 --- [citymarket] [    Test worker] c.m.c.api.CitymarketApplicationTests     : Starting CitymarketApplicationTests using Java 17.0.2 with PID 56677 (started by osanyemosadebe in /Users/osanyemosadebe/learning-repos/city-market-backend)
+2024-09-15T15:25:20.616-04:00  INFO 56677 --- [citymarket] [    Test worker] c.m.c.api.CitymarketApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2024-09-15T15:25:21.078-04:00  INFO 56677 --- [citymarket] [    Test worker] c.m.c.api.CitymarketApplicationTests     : Started CitymarketApplicationTests in 0.557 seconds (process running for 1.003)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

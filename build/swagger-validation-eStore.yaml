@@ -1,0 +1,35 @@
+---
+success: true
+messages:
+- level: "warning"
+  schema:
+    loadingURI: "#"
+    pointer: "/definitions/Contact/properties/url"
+  domain: "validation"
+  keyword: "format"
+  message: "format attribute \"uri-reference\" not supported"
+  attribute: "uri-reference"
+- level: "warning"
+  schema:
+    loadingURI: "#"
+    pointer: "/definitions/License/properties/url"
+  domain: "validation"
+  keyword: "format"
+  message: "format attribute \"uri-reference\" not supported"
+  attribute: "uri-reference"
+- level: "warning"
+  schema:
+    loadingURI: "#"
+    pointer: "/definitions/Info/properties/termsOfService"
+  domain: "validation"
+  keyword: "format"
+  message: "format attribute \"uri-reference\" not supported"
+  attribute: "uri-reference"
+- level: "warning"
+  schema:
+    loadingURI: "#"
+    pointer: "/definitions/ExternalDocumentation/properties/url"
+  domain: "validation"
+  keyword: "format"
+  message: "format attribute \"uri-reference\" not supported"
+  attribute: "uri-reference"

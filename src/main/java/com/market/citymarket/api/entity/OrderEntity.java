@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-import com.market.citymarket.api.enums.StatusEnum;
+import com.market.citymarket.api.model.Order.StatusEnum;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;

@@ -50,9 +50,9 @@ public class CartServiceImpl implements CartService {
 
     @Override
     public List<Item> addOrReplaceItemsByCustomerId(String customerId, @Valid Item item) {
-        CartEntity customerCartEntity = getCartByCustomerId(customerId);
+        CartEntity entity = getCartByCustomerId(customerId);
         List<ItemEntity> items =
-                Objects.nonNull(customerCartEntity.getItems()) ? customerCartEntity.getItems() : List.of();
+                Objects.nonNull(entity.getItems()) ? entity.getItems() : List.of();
         AtomicBoolean itemExists = new AtomicBoolean(false);
         items.forEach(singleItem -> {
             if (singleItem.getProduct().getId().equals(UUID.fromString(item.getId()))) {
@@ -63,7 +63,7 @@ public class CartServiceImpl implements CartService {
         if (!itemExists.get()) {
             items.add(itemService.toEntity(item));
         }
-        return itemService.toModelList(repository.save(customerCartEntity).getItems());
+        return itemService.toModelList(repository.save(entity).getItems());
     }
 
     @Override

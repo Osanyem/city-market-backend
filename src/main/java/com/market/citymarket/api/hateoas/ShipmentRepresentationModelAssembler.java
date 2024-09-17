@@ -14,10 +14,7 @@ import java.util.stream.StreamSupport;
 import static java.util.stream.Collectors.toList;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter04 - Modern API Development with Spring and Spring Boot Ed 2
- **/
+
 @Component
 public class ShipmentRepresentationModelAssembler extends
         RepresentationModelAssemblerSupport<ShipmentEntity, Shipment> {

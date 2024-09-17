@@ -1,4 +1,4 @@
-package com.market.citymarket.api.exceptions;
+package com.market.citymarket.api.exception;
 
 import org.apache.logging.log4j.util.Strings;
 

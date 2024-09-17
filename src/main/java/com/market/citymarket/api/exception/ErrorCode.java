@@ -1,4 +1,4 @@
-package com.market.citymarket.api.exceptions;
+package com.market.citymarket.api.exception;
 
 public enum ErrorCode {
     // Internal Errors: 1 to 0999

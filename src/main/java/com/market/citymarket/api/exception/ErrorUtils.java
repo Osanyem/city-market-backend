@@ -1,4 +1,4 @@
-package com.market.citymarket.api.exceptions;
+package com.market.citymarket.api.exception;
 
 public class ErrorUtils {
     private ErrorUtils() {

@@ -1,4 +1,4 @@
-package com.market.citymarket.api.exceptions;
+package com.market.citymarket.api.exception;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import java.util.Locale;
